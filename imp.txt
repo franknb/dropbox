@@ -1,0 +1,4 @@
+Todo:
+1. for yj_invd_imp_order and Innovid Diminishing, how is No-tv determined from placement? How is campaign determined, is it also separated into GM/MCM?
+2. for EDA Innovid performence, how is comparison_type determined?
+3. 
