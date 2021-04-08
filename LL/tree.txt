@@ -1,0 +1,145 @@
+├───database
+│   ├───Adhoc_Loads
+│   │   ├───DDLs
+│   │   └───Views
+│   ├───Dashboard_Views
+│   │   ├───DCM_Pathing_Analysis
+│   │   ├───experience_dashboard
+│   │   ├───innovid_eda_pathing
+│   │   ├───media_audience_and_content
+│   │   └───scorecard_kpi
+│   ├───DCM
+│   │   ├───DML
+│   │   ├───Metadata
+│   │   ├───Stage Tables
+│   │   ├───Stored Procedures
+│   │   ├───Target Tables
+│   │   └───Views
+│   ├───DCM_Scale
+│   │   ├───Metadata
+│   │   ├───Stored Procedures
+│   │   ├───Target Tables
+│   │   └───Views
+│   ├───GA360
+│   │   ├───Metadata
+│   │   ├───Stage Tables
+│   │   ├───Stored Procedures
+│   │   ├───Target Tables
+│   │   └───Views
+│   ├───GA360_Emgality
+│   │   ├───Metadata
+│   │   ├───Stage Tables
+│   │   ├───Stored Procedures
+│   │   ├───Target Tables
+│   │   └───Views
+│   ├───GA360_Taltz
+│   │   ├───Metadata
+│   │   ├───Stage Tables
+│   │   ├───Stored Procedures
+│   │   ├───Target Tables
+│   │   └───Views
+│   ├───GA360_TrulyTogether
+│   │   ├───Metadata
+│   │   ├───Stage Tables
+│   │   ├───Stored Procedures
+│   │   ├───Target Tables
+│   │   └───Views
+│   ├───GooglePaidSearch
+│   │   ├───Metadata
+│   │   ├───Stage Tables
+│   │   ├───Stored Procedures
+│   │   ├───Target Tables
+│   │   └───Views
+│   ├───Image_Recognition
+│   │   └───DML
+│   ├───Innovid
+│   │   ├───Documentation
+│   │   ├───Metadata
+│   │   ├───Stage Tables
+│   │   ├───Stored Procedures
+│   │   ├───Target Tables
+│   │   └───Views
+│   ├───Innovid_Emgality
+│   │   ├───Metadata
+│   │   ├───Stored_Procedures
+│   │   ├───Target Tables
+│   │   └───Views
+│   ├───Innovid_Taltz
+│   │   ├───Metadata
+│   │   ├───Stored_Procedures
+│   │   ├───Target Tables
+│   │   └───Views
+│   ├───Innovid_Verzenio
+│   │   ├───Metadata
+│   │   ├───Stored_Procedures
+│   │   ├───Target Tables
+│   │   └───Views
+│   ├───Legacy_DCM
+│   │   ├───Metadata
+│   │   ├───Stage Tables
+│   │   ├───Stored Procedures
+│   │   └───Target Tables
+│   └───Liveramp_Outbound
+│       ├───Metadata
+│       ├───StoredProcedure
+│       └───Views
+├───ETL-Pipeline
+│   ├───Adhoc_Loads
+│   ├───DCM
+│   │   ├───Glue
+│   │   ├───Lambda
+│   │   └───Metadata
+│   ├───DCM_Scale
+│   │   ├───Glue
+│   │   └───Metadata
+│   ├───GA360
+│   │   ├───Glue
+│   │   ├───Lambda
+│   │   │   └───trulicity_ga_raw_to_stage
+│   │   └───Metadata
+│   │       └───cleansed
+│   ├───GA360_TrulyTogether
+│   │   ├───Glue
+│   │   ├───Lambda
+│   │   └───Metadata
+│   │       └───cleansed
+│   ├───GA_Emgality
+│   │   ├───Glue
+│   │   ├───Lambda
+│   │   └───Metadata
+│   ├───GA_Taltz
+│   │   ├───Glue
+│   │   ├───Lambda
+│   │   └───Metadata
+│   ├───Generic
+│   │   └───s3_metadata_processor
+│   ├───GooglePaidSearch
+│   │   ├───Glue
+│   │   ├───Lambda
+│   │   └───Metadata
+│   │       └───cleansed
+│   ├───Innovid
+│   │   ├───Glue
+│   │   ├───Lambda
+│   │   └───Metadata
+│   ├───Innovid_Emgality
+│   │   └───Glue
+│   ├───Innovid_Taltz
+│   │   └───Glue
+│   ├───Innovid_Verzenio
+│   │   └───Glue
+│   ├───Legacy_DCM
+│   │   ├───Glue
+│   │   ├───Lambda
+│   │   └───Metadata
+│   └───Liveramp_Outbound
+│       └───Glue
+├───Image Recognition
+│   ├───Lambda
+│   └───SQL
+└───Utilities
+    ├───.idea
+    │   └───inspectionProfiles
+    ├───PaidSearch
+    │   └───RawSheets
+    └───Worksheets
